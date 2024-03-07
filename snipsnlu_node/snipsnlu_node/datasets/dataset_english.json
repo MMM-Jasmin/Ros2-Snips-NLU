@@ -8,7 +8,10 @@
                 { "data": [{ "text": "Show me something funny" }]},
                 { "data": [{ "text": "Show me the comic of the day" }]},
                 { "data": [{ "text": "I would like to see the comic." }]},
-                { "data": [{ "text": "I would like to see a comic." }]}
+                { "data": [{ "text": "I would like to see a comic." }]},
+                { "data": [{ "text": "show me a comic." }]},
+                { "data": [{ "text": "Let me see a comic"}]},
+                { "data": [{ "text": "Bring up a comic"}]}
             ]
         },
         "mensa": {
@@ -68,7 +71,12 @@
                         {"text": "?"}]},
                 {"data": [{ "text": "Do I need an umbrella " },
                         {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
-                        {"text": "?"}]}
+                        {"text": "?"}]},
+                {"data": [{ "text": "Am i going to need an umbrella " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "Am i going to need an umbrella outside?"}]}
+
             ]
         },
         "office_sensors": {
@@ -81,7 +89,9 @@
                 {"data": [{ "text": "Show me the room air Pressure?" }]},
                 {"data": [{ "text": "Display the room temperature?" }]},
                 {"data": [{ "text": "Display the room humidity?" }]},
-                {"data": [{ "text": "Display the room air Pressure?" }]}
+                {"data": [{ "text": "Display the room air Pressure?" }]},
+                {"data": [{ "text": "How hot is it in here?" }]},
+                {"data": [{ "text": "What temperature is in here?" }]}
             ]
         }
     },

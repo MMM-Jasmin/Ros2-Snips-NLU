@@ -23,7 +23,7 @@ class SnipsNLU():
 
     def parse(self, utterance):
         parsing = self.engine.parse(utterance)
-        print(json.dumps(parsing, indent=2))
+        #print(json.dumps(parsing, indent=2))
         return parsing
 
 

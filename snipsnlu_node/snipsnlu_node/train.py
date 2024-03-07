@@ -8,6 +8,8 @@ from snips_nlu.default_configs import CONFIG_EN as CONFIG
 
 def trainer(datasetpath, modelpath):
 
+    #print(CONFIG)
+
     engine = SnipsNLUEngine(config=CONFIG)
 
     with io.open(datasetpath) as f:

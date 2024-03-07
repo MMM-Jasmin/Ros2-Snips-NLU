@@ -16,11 +16,14 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
+import re
+import spacy
 
 from snipsnlu_node.snipsNLU import SnipsNLU
 from snipsnlu_node.publisher_member_function import MinimalPublisher
 
 topic = "/speech/stt"
+intent_threshhold = 0.5
 
 
 class MinimalSubscriber(Node):
@@ -35,12 +38,24 @@ class MinimalSubscriber(Node):
         self.subscription  # prevent unused variable warning
         self.publisher = MinimalPublisher()
         self.snips_engine = SnipsNLU()
+        self.nlp = spacy.load('en_core_web_sm')
 
     def listener_callback(self, msg):
         self.get_logger().info('I heard: "%s"' % msg.data)
-        ret = self.snips_engine.parse(msg.data)
-        self.get_logger().info(f'Snips Ergebnis: {ret}')
-        self.publisher.data_callback(ret)
+        msg.data = re.sub("[\(\[].*?[\)\]]", "", msg.data) # remove everything between brackets like [silence] or [music]
+        msg.data = msg.data.replace("  ", " ")
+
+        if (msg.data == ""):
+            self.get_logger().info('Doing nothing! This message is empty!')
+        else:
+        
+            doc = self.nlp(msg.data)
+            for sentence in doc.sents:
+                #print(type(sentence.text))
+                ret = self.snips_engine.parse(sentence.text)
+                #self.get_logger().info(f'Snips Ergebnis: {ret}')
+                if(ret["intent"]["intentName"] is not None and ret["intent"]["probability"] > intent_threshhold):
+                    self.publisher.data_callback(ret)
 
 
 def main(args=None):
