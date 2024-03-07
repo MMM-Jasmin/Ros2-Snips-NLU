@@ -1,0 +1,2738 @@
+{
+  "entities": {
+    "menu": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "veggie"
+          ],
+          "value": "vegetarisch"
+        },
+        {
+          "synonyms": [
+            "angebot",
+            "g\u00fcnstig"
+          ],
+          "value": "aktion"
+        },
+        {
+          "synonyms": [],
+          "value": "eintopf"
+        },
+        {
+          "synonyms": [],
+          "value": "vegan"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "snips/city": {},
+    "snips/datetime": {},
+    "snips/musicAlbum": {},
+    "snips/musicArtist": {},
+    "snips/musicTrack": {}
+  },
+  "intents": {
+    "joke": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Ich brauch etwas Spa\u00df"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Nenne mir einen Witz."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was ist dein lustigster Witz?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte einen Witz h\u00f6ren"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erz\u00e4hl mir einen Witz"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erz\u00e4hl mal was Lustiges"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte gerne eine Witz h\u00f6ren."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erz\u00e4hle einen Ulk."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kennst du einen Witz?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erz\u00e4hl mal einen Witz"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kennst du gute Witze?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mir ist nach einem Witz"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Einen Witz, bitte."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kennst du einen guten Witz?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bitte erz\u00e4hle einen Witz"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mir ist langweilig"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erz\u00e4hl mir den Witz des Tages"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bring mich zum Lachen."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kannst du mir bitte einen Witz erz\u00e4hlen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kannst du mir einen Witz erz\u00e4hlen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Unterhalte mich!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Hast du einen Witz f\u00fcr mich?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mir ist nach Lachen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Sei mal lustig"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erheitere die Stimmung."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will lachen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte was Lustiges h\u00f6ren."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich bin traurig"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erz\u00e4hl bitte einen Witz"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Erz\u00e4hle etwas ulkiges"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Muntere mich auf."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte Lachen."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will Spa\u00df"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kannst du mich zum Lachen bringen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Witz erz\u00e4hlen!"
+            }
+          ]
+        }
+      ]
+    },
+    "mensa": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Was ist das Tagesmen\u00fc in der Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Gibt es heute etwas "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "veganes"
+            },
+            {
+              "text": " in der Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was steht auf dem Mensa-Plan"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Zeige mir den heutigen Speiseplan f\u00fcr die Mensa."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mensa Essensplan."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kannst du mir bitte sagen, was es heute in der Mensa gibt?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was ist heute in der Mensa im "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "Angebot"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was ist das vegetarische Essen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Sag mir bitte was es heute in der Mensa zu Essen gibt."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es heute Mittag in der Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es heute in der Mensa zu essen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie sieht der Mensaplan aus?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was kann ich heute essen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es in der Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt's zu essen heute?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was ist heute der Men\u00fcplan f\u00fcr die Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kannst du mir den heutigen Speiseplan f\u00fcr die Mensa zeigen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Welche Gerichte gibt es heute"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mensaplan!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Welchen "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "Eintopf"
+            },
+            {
+              "text": " gibt es heute?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibts heute zu essen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Welche Gerichte stehen heute in der Mensa zur Verf\u00fcgung?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was steht auf dem Speiseplan?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie sieht der Men\u00fcplan der Mensa aus?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es heute zu Essen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Sag mir, was es in der Mensa gibt"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wann gibt es wieder K\u00e4sesp\u00e4tzle?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Welches Essen ist heute das "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "g\u00fcnstigste"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich habe Hunger."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was sind die Mensamen\u00fcs?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich bin hungrig"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was kann ich in der Mensa heute essen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mach mir was zu essen!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es in der Mensa."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es heute in der Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte wissen, was es heute in der mensa gibt."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es in der Mensa heute Mittag?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Welche Gerichte gibt es heute in der Mensa"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was hat die Mensa heute im "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "Angebot"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Welche Men\u00fcs gibt es heute in der Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich habe Hunger Ich will in die Mensa"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was ist heute "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "aktionstheke"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mittagessen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es in der Mensa heute?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was ist in der Mensa heute im "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "Angebot"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie sieht das Men\u00fc heute aus?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was gibt es morgen "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "vegetarisches"
+            },
+            {
+              "text": " zum Essen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mensaplan f\u00fcr heute!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Welches "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "vegane"
+            },
+            {
+              "text": " Gericht gibt es heute?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was hat die Mensa als "
+            },
+            {
+              "entity": "menu",
+              "slot_name": "menu",
+              "text": "vegetarisches"
+            },
+            {
+              "text": " Gericht ?"
+            }
+          ]
+        }
+      ]
+    },
+    "music": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Mach bitte Musik an"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel bitte "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "10 Liter Bier"
+            },
+            {
+              "text": " von den "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Mickie Krause"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich w\u00fcrde gerne von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Doja Cat"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Woman"
+            },
+            {
+              "text": " h\u00f6ren."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Coldplay"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Fix you"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Je m'apelle"
+            },
+            {
+              "text": " h\u00f6ren"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Provenza"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Supercalifragilisticexpialidocious"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel bitte "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Memories"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel mir das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Master of Puppets"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Starte ein Lied."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "As It Was"
+            },
+            {
+              "text": " h\u00f6ren"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Telephone"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Lady Gaga"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele Musik ab."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kannst du "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Telephone"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Lady Gaga"
+            },
+            {
+              "text": " abspielen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele das Album "
+            },
+            {
+              "entity": "snips/musicAlbum",
+              "slot_name": "album",
+              "text": "The War to End all Wars"
+            },
+            {
+              "text": " ab"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Kannst du mir "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Wrecked"
+            },
+            {
+              "text": " vor "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Seum Dero"
+            },
+            {
+              "text": " und "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Babz Wayne"
+            },
+            {
+              "text": " spielen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel den Song "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Hey Ya"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel bitte "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Coldplay"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Fix you"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Mexico"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Alestorm"
+            },
+            {
+              "text": " ab"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich w\u00fcrde gerne "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Sweet True Lies"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Beast In Black"
+            },
+            {
+              "text": " h\u00f6ren"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Glimpse of US"
+            },
+            {
+              "text": " ab"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mach Musik an"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mach mal bitte "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Bruttosozialprodukt"
+            },
+            {
+              "text": " an"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel einen ruhigen Pop-Song aus den 80ern"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel mir das bekannteste Lied von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Lizzo"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Barbie Girl"
+            },
+            {
+              "text": " ab"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel den "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Bongosong"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Play Musik."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel was Klassisches von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Mozart"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel Musik"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Dreh den Tune auf."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Canonball"
+            },
+            {
+              "text": " abspielen."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Enter Sandman"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte Musik h\u00f6ren"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich brauche Musik"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "What is Love"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Brenn die H\u00fctte ab"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Way of the Warrior"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Hammerfall"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will tanzen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel mir das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Bohemian Rhapsody"
+            },
+            {
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel mir "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Telephone"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Lady Gaga"
+            },
+            {
+              "text": " ab."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel meine Playlist Putzen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Lass mich tanzen."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Party"
+            },
+            {
+              "text": " ab."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "abcdefu"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Gayle"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Telephone"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Lady Gaga"
+            },
+            {
+              "text": " h\u00f6ren."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel f\u00fcr mich das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Break my Soul"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Queen"
+            },
+            {
+              "text": " "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Bohemian Rhapsody"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Mighty Magic Mammoth"
+            },
+            {
+              "text": " ab"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will das Album "
+            },
+            {
+              "entity": "snips/musicAlbum",
+              "slot_name": "album",
+              "text": "Justice"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Justin Bieber"
+            },
+            {
+              "text": " h\u00f6ren"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Scooter"
+            },
+            {
+              "text": " h\u00f6ren"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Another Lemon Tree"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel mir ein fr\u00f6hliches Lied"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mach das Lied "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Stayin Alive"
+            },
+            {
+              "text": " an!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich m\u00f6chte "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "P.A.R.T.Y"
+            },
+            {
+              "text": " h\u00f6ren, von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Alestorm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Mach mal "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Telephone"
+            },
+            {
+              "text": " von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Lady Gaga"
+            },
+            {
+              "text": " an."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele das tolle Lied von "
+            },
+            {
+              "entity": "snips/musicArtist",
+              "slot_name": "artist",
+              "text": "Rick Astley"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele ein Lied ab."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel "
+            },
+            {
+              "entity": "snips/musicTrack",
+              "slot_name": "track",
+              "text": "Watermelon Sugar"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will singen."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiele Rockmusik."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Spiel Musik zum Kochen"
+            }
+          ]
+        }
+      ]
+    },
+    "wetter": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Wie ist das Wetter in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " das Wetter in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": " Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Schneit es am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Samstag"
+            },
+            {
+              "text": " im "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Sauerland"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie sieht es mit dem Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " aus ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " auf "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Borkum"
+            },
+            {
+              "text": " um "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "15:00"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter um "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "15:00"
+            },
+            {
+              "text": " auf "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Borkum"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Regnet es auf dem weg zur Mensa?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist die Wettervorhersage f\u00fcr "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": " das Wetter?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie kalt ist es?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wird es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " nachmittag auf "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Borkum"
+            },
+            {
+              "text": " regnen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Scheint "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " die Sonne in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Regnet es in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "New York"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist hier das Wetter?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie soll "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " das Wetter werden in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "n\u00e4chste Woche"
+            },
+            {
+              "text": "?e"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Brauche ich am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Freitag"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Werther"
+            },
+            {
+              "text": " eine Regenschirm"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ich will wissen, wie das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "n\u00e4chste Woche"
+            },
+            {
+              "text": " wird."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist das Wetter gerade?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wird es am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Sonntag"
+            },
+            {
+              "text": " regnen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wird es regnen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Brauche ich "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " einen Regenschirm?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Dienstag"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wann wird es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " regnen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie warm wird es am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Wochenende"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie warm wird es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was sagt der Wetterbericht f\u00fcr "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Bitte sage mir, ob "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " die Sonne scheint oder es regnet."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Borchen"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Berichte mir von dem Wetter in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Shanghai"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie kalt ist es in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Soll es gleich in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": " regnen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie soll das Wetter morgen in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "K\u00f6ln"
+            },
+            {
+              "text": " werden?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie warm ist es in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was sagt das Wetter ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wird es am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Sonntag"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bochum"
+            },
+            {
+              "text": " regnen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Berlin"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Wochenende"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wetter, "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist die Wetterlage f\u00fcr "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "M\u00fcnchen"
+            },
+            {
+              "text": " am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgigen"
+            },
+            {
+              "text": " Tag?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Ist es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "n\u00e4chste Woche"
+            },
+            {
+              "text": " sch\u00f6n?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bielefeld"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Was ist die Wettervorhersage f\u00fcr "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "M\u00fcnchen"
+            },
+            {
+              "text": " um 16 Uhr?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Regnet es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " Abend in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Deppendorf"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist grade das Wetter in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "London"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie warm ist es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " nachmittag auf "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Borkum"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Regnet es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Baden Baden"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Regnet es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Buxtehude"
+            },
+            {
+              "text": " am Wochenende?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Gibt mir eine \u00dcbersicht \u00fcber das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " in M\u00fcnchen."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie warm ist es?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "M\u00fcnchen"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Sage mir wie das Wetter in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "G\u00fctersloh"
+            },
+            {
+              "text": " wird."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wird es "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Bonn"
+            },
+            {
+              "text": " regnen?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "\u00fcbermorgen"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "G\u00fctersloh"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Scheint "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "heute"
+            },
+            {
+              "text": " die Sonne in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Wuppertal"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie wird das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "Berlin"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie entwickelt sich das Wetter "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "morgen"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "M\u00fcnchen"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wie ist die Wettervorhersage f\u00fcr "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "location",
+              "text": "M\u00fcnchen"
+            },
+            {
+              "text": " am "
+            },
+            {
+              "entity": "snips/datetime",
+              "slot_name": "datetime",
+              "text": "Wochenende"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Wann scheint wieder die Sonne?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "de"
+}

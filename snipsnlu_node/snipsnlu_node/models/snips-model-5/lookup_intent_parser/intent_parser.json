@@ -1,0 +1,175 @@
+{
+  "config": {
+    "ignore_stop_words": true,
+    "unit_name": "lookup_intent_parser"
+  },
+  "entity_scopes": [
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": []
+      },
+      "intent_group": [
+        "joke"
+      ]
+    },
+    {
+      "entity_scope": {
+        "builtin": [],
+        "custom": [
+          "menu"
+        ]
+      },
+      "intent_group": [
+        "mensa"
+      ]
+    },
+    {
+      "entity_scope": {
+        "builtin": [
+          "snips/musicTrack",
+          "snips/musicArtist"
+        ],
+        "custom": []
+      },
+      "intent_group": [
+        "music"
+      ]
+    },
+    {
+      "entity_scope": {
+        "builtin": [
+          "snips/datetime",
+          "snips/city"
+        ],
+        "custom": []
+      },
+      "intent_group": [
+        "wetter"
+      ]
+    }
+  ],
+  "intents_names": [
+    "joke",
+    "mensa",
+    "music",
+    "wetter"
+  ],
+  "language_code": "de",
+  "map": {
+    "-1338099202": [
+      0,
+      []
+    ],
+    "-958394718": [
+      0,
+      []
+    ],
+    "-827507101": [
+      1,
+      []
+    ],
+    "-787260119": [
+      3,
+      [
+        4,
+        3
+      ]
+    ],
+    "-575512559": [
+      1,
+      []
+    ],
+    "-399760700": [
+      0,
+      []
+    ],
+    "-380438008": [
+      1,
+      []
+    ],
+    "-319374126": [
+      2,
+      [
+        2,
+        1
+      ]
+    ],
+    "662566922": [
+      2,
+      []
+    ],
+    "704124472": [
+      3,
+      [
+        3,
+        4
+      ]
+    ],
+    "852646600": [
+      2,
+      [
+        1
+      ]
+    ],
+    "922161502": [
+      0,
+      []
+    ],
+    "950262421": [
+      1,
+      []
+    ],
+    "1050794414": [
+      3,
+      [
+        4,
+        3
+      ]
+    ],
+    "1111308714": [
+      2,
+      [
+        2,
+        1
+      ]
+    ],
+    "1127949144": [
+      3,
+      [
+        3
+      ]
+    ],
+    "1129295769": [
+      2,
+      [
+        1,
+        2
+      ]
+    ],
+    "1221035707": [
+      3,
+      [
+        4
+      ]
+    ],
+    "1636456602": [
+      1,
+      [
+        0
+      ]
+    ],
+    "1931225654": [
+      0,
+      []
+    ]
+  },
+  "slots_names": [
+    "menu",
+    "track",
+    "artist",
+    "location",
+    "datetime"
+  ],
+  "stop_words_whitelist": {}
+}

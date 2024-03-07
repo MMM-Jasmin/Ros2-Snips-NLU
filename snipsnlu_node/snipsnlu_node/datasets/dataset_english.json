@@ -1,0 +1,89 @@
+{
+    "entities": {
+        "snips/datetime": {}
+    },
+    "intents": {
+        "comic": {
+            "utterances": [
+                { "data": [{ "text": "Show me something funny" }]},
+                { "data": [{ "text": "Show me the comic of the day" }]},
+                { "data": [{ "text": "I would like to see the comic." }]},
+                { "data": [{ "text": "I would like to see a comic." }]}
+            ]
+        },
+        "mensa": {
+            "utterances": [
+                { "data": [{ "text": "What is the cafeteria offering?" }]},
+                { "data": [{ "text": "What is the mensa offering?" }]},
+                { "data": [{ "text": "Show me the mensa menue" }]},
+                { "data": [{ "text": "Show me the mensa offering" }]},
+                { "data": [{ "text": "Display the mensa menue?" }]},
+                { "data": [{ "text": "What can i eat "} , 
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                { "data": [{ "text": "Show me the food offering from " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                { "data": [{ "text": "Show me the food offering" }]},
+                { "data": [{ "text": "Can you please show me the mensa menu?" }]},
+                { "data": [{ "text": "Can you please show me the mensa offer?" }]},
+                { "data": [{ "text": "Can you please show me the cafeteria menu?" }]},
+                { "data": [{ "text": "Can you please show me the cafeteria offer?" }]},
+                { "data": [{ "text": "Can you please get me the mensa menu?" }]},
+                { "data": [{ "text": "Can you please get me the mensa offer?" }]},
+                { "data": [{ "text": "Can you please get me the cafeteria menu?" }]},
+                { "data": [{ "text": "Can you please get me the cafeteria offer?" }]}
+            ]
+        },
+        "weather": {
+            "utterances": [
+                {"data": [{ "text": "What will the weather be like " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "How is the weather " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "How will the weather be " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "Show me the weather forecast" }]},
+                {"data": [{ "text": "Could you tell us what the weather will be like " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "Will it be sunny "},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]}
+            ]
+        },
+        "rain_radar": {
+            "utterances": [
+                {"data": [{ "text": "Is it going to rain " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "Does it currently rain?" }]},
+                {"data": [{ "text": "Show me the rain map" }]},
+                {"data": [{ "text": "Display the rain map" }]},
+                {"data": [{ "text": "Will i need an umbrella " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "Do I need an umbrella " },
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]}
+            ]
+        },
+        "office_sensors": {
+            "utterances": [
+                {"data": [{ "text": "What is the room temperature?" }]},
+                {"data": [{ "text": "What is the room humidity?" }]},
+                {"data": [{ "text": "What is the room air Pressure?" }]},
+                {"data": [{ "text": "Show the room temperature?" }]},
+                {"data": [{ "text": "Show me the room humidity?" }]},
+                {"data": [{ "text": "Show me the room air Pressure?" }]},
+                {"data": [{ "text": "Display the room temperature?" }]},
+                {"data": [{ "text": "Display the room humidity?" }]},
+                {"data": [{ "text": "Display the room air Pressure?" }]}
+            ]
+        }
+    },
+    "language": "en"
+}

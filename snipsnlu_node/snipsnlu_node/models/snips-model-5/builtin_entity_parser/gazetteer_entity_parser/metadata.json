@@ -1,0 +1,16 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "snips/city",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "snips/musicArtist",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "snips/musicTrack",
+      "entity_parser": "parser_3"
+    }
+  ]
+}
