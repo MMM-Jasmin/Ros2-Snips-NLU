@@ -38,7 +38,7 @@
                 { "data": [{ "text": "Can you please get me the cafeteria offer?" }]}
             ]
         },
-        "weather": {
+        "wforecast": {
             "utterances": [
                 {"data": [{ "text": "What will the weather be like " },
                         {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
@@ -58,7 +58,7 @@
                         {"text": "?"}]}
             ]
         },
-        "rain_radar": {
+        "rain_map": {
             "utterances": [
                 {"data": [{ "text": "Is it going to rain " },
                         {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
@@ -79,11 +79,19 @@
 
             ]
         },
-        "office_sensors": {
+        "transportation": {
+            "utterances": [
+                {"data": [{ "text": "When is the next bus comming?" }]},
+                {"data": [{ "text": "When is the next tram comming?" }]},
+                {"data": [{ "text": "When is the next train comming?" }]},
+                {"data": [{ "text": "Show me the public transportation schedule." }]}
+            ]
+        },
+        "office_temp": {
             "utterances": [
                 {"data": [{ "text": "What is the room temperature?" }]},
                 {"data": [{ "text": "What is the room humidity?" }]},
-                {"data": [{ "text": "What is the room air Pressure?" }]},
+                {"data": [{ "text": "What is the room air pressure?" }]},
                 {"data": [{ "text": "Show the room temperature?" }]},
                 {"data": [{ "text": "Show me the room humidity?" }]},
                 {"data": [{ "text": "Show me the room air Pressure?" }]},
@@ -91,7 +99,49 @@
                 {"data": [{ "text": "Display the room humidity?" }]},
                 {"data": [{ "text": "Display the room air Pressure?" }]},
                 {"data": [{ "text": "How hot is it in here?" }]},
+                {"data": [{ "text": "How warm is it in my room?" }]},
                 {"data": [{ "text": "What temperature is in here?" }]}
+            ]
+        },
+        "soccer": {
+            "utterances": [
+                {"data": [{ "text": "Show me the last foodball results." }]},
+                {"data": [{ "text": "Display foodball results" }]},
+                {"data": [{ "text": "How did my favorid team play?" }]}
+            ]
+        },
+        "traffic": {
+            "utterances": [
+                {"data": [{ "text": "How is the traffic?" }]},
+                {"data": [{ "text": "How is the traffic"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "?"}]},
+                {"data": [{ "text": "Are the roads free?" }]}
+            ]
+        },
+        "fuel":{
+            "utterances": [
+                {"data": [{ "text": "i need fuel." }]},
+                {"data": [{ "text": "i need gas." }]},
+                {"data": [{ "text": "what are the fuel prices?" }]},
+                {"data": [{ "text": "what are the gas prices?" }]}
+            ]
+        },
+        "remove_all": {
+            "utterances": [
+                {"data": [{ "text": "Remove all modules." }]},
+                {"data": [{ "text": "Remove everything." }]},
+                {"data": [{ "text": "Hide all modules." }]},
+                {"data": [{ "text": "Hide everything." }]},
+                {"data": [{ "text": "Remove all." }]},
+                {"data": [{ "text": "Hide all." }]}
+            ]
+        },
+        "reset_view": {
+            "utterances": [
+                {"data": [{ "text": "Reset." }]},
+                {"data": [{ "text": "Reset my view." }]},
+                {"data": [{ "text": "load the default view." }]}
             ]
         }
     },
