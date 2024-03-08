@@ -48,7 +48,6 @@ class MinimalSubscriber(Node):
         if (msg.data == ""):
             self.get_logger().info('Doing nothing! This message is empty!')
         else:
-        
             doc = self.nlp(msg.data)
             for sentence in doc.sents:
                 #print(type(sentence.text))
