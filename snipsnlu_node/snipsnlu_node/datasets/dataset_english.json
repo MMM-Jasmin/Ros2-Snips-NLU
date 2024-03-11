@@ -106,7 +106,8 @@
         "soccer": {
             "utterances": [
                 {"data": [{ "text": "Show me the last foodball results." }]},
-                {"data": [{ "text": "Display foodball results" }]},
+                {"data": [{ "text": "Display foodball results." }]},
+                {"data": [{ "text": "how did the last game end?" }]},
                 {"data": [{ "text": "How did my favorid team play?" }]}
             ]
         },
@@ -141,7 +142,9 @@
             "utterances": [
                 {"data": [{ "text": "Reset." }]},
                 {"data": [{ "text": "Reset my view." }]},
-                {"data": [{ "text": "load the default view." }]}
+                {"data": [{ "text": "load the default view." }]},
+                {"data": [{ "text": "please restore the default view." }]}
+
             ]
         }
     },
