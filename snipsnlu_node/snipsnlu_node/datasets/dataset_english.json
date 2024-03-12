@@ -19,6 +19,8 @@
                 { "data": [{ "text": "What is the cafeteria offering?" }]},
                 { "data": [{ "text": "What is the mensa offering?" }]},
                 { "data": [{ "text": "Show me the mensa menue" }]},
+                { "data": [{ "text": "Show me the offering" }]},
+                { "data": [{ "text": "What is the offering?" }]},
                 { "data": [{ "text": "Show me the mensa offering" }]},
                 { "data": [{ "text": "Display the mensa menue?" }]},
                 { "data": [{ "text": "What can i eat "} , 
@@ -41,39 +43,39 @@
         "wforecast": {
             "utterances": [
                 {"data": [{ "text": "What will the weather be like " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "wForecastDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "How is the weather " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "wForecastDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "How will the weather be " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "wForecastDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "Show me the weather forecast" }]},
                 {"data": [{ "text": "Could you tell us what the weather will be like " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "wForecastDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "Will it be sunny "},
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "wForecastDate"},
                         {"text": "?"}]}
             ]
         },
         "rain_map": {
             "utterances": [
                 {"data": [{ "text": "Is it going to rain " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "rainDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "Does it currently rain?" }]},
                 {"data": [{ "text": "Show me the rain map" }]},
                 {"data": [{ "text": "Display the rain map" }]},
                 {"data": [{ "text": "Will i need an umbrella " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "rainDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "Do I need an umbrella " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "rainDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "Am i going to need an umbrella " },
-                        {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
+                        {"text": "today", "entity": "snips/datetime", "slot_name": "rainDate"},
                         {"text": "?"}]},
                 {"data": [{ "text": "Am i going to need an umbrella outside?"}]}
 
@@ -107,6 +109,8 @@
             "utterances": [
                 {"data": [{ "text": "Show me the last foodball results." }]},
                 {"data": [{ "text": "Display foodball results." }]},
+                {"data": [{ "text": "Display soccer results." }]},
+                {"data": [{ "text": "Show me the last soccer results." }]},
                 {"data": [{ "text": "how did the last game end?" }]},
                 {"data": [{ "text": "How did my favorid team play?" }]}
             ]
@@ -117,7 +121,8 @@
                 {"data": [{ "text": "How is the traffic"},
                         {"text": "today", "entity": "snips/datetime", "slot_name": "mensaDate"},
                         {"text": "?"}]},
-                {"data": [{ "text": "Are the roads free?" }]}
+                {"data": [{ "text": "Are the roads free?" }]},
+                {"data": [{ "text": "Who fast can i drive home?" }]}
             ]
         },
         "fuel":{
